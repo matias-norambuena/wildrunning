@@ -24,31 +24,31 @@
     <EditText
         android:id="@+id/etEmail"
         style="@style/viewCustom"
-        android:autofillHints="Email"
-        android:backgroundTint="@color/white"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:text="@string/email"
         android:paddingTop="30dp"
         android:layout_marginTop="0dp"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:textColor="@color/white" />
+        android:backgroundTint="@color/white"/>
 
     <EditText
         android:id="@+id/etPassword"
         style="@style/viewCustom"
-        android:backgroundTint="@color/white"
+        android:hint="@string/password"
         android:inputType="textPassword"
-        android:text="@string/password"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:textColor="@color/white" />
+        android:backgroundTint="@color/white"
+         />
 
     <TextView
         android:id="@+id/btnLogin"
         style="@style/viewCustom"
         android:background="@color/green"
         android:gravity="center_horizontal"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:text="@string/login"
         android:textColor="@color/white"
         android:textStyle="bold"
@@ -58,7 +58,6 @@
     <TextView
         android:id="@+id/txtForgotPassword"
         style="@style/viewCustom"
-        android:layout_below="@+id/btnLogin"
         android:onClick="forgotPassword"
         android:gravity="center_horizontal"
         android:paddingTop="0dp"
@@ -75,22 +74,22 @@
         <CheckBox
             android:id="@+id/cbAccept"
             style="@style/viewCustom"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:buttonTint="@color/gray"
             android:text="@string/accept"
             android:textColor="@color/white"
-            android:textSize="10sp"/>
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/termsButton"
             style="@style/viewCustom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:onClick="goTerms"
             android:text="@string/terms"
             android:textColor="@color/salmon"
-            android:layout_marginLeft="5dp"
-            android:textSize="10sp"
-            android:onClick="goTerms"/>
+            android:textSize="12sp" />
     </LinearLayout>
     <Button
         android:id="@+id/btSignGoogle"

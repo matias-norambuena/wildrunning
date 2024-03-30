@@ -12,4 +12,8 @@
     <string name="invalid_email">mmm parece que el email está mal escrito</string>
     <string name="google">GOOGLE</string>
     <string name="facebook">FACEBOOK</string>
+    <string name="bar_title_terms">Términos y Condiciones de Uso</string>
+    <string name="terms1">By downloading, installing, or otherwise using WildRunning, you hereby consent to these Terms and Conditions and agree to abide by them. If you do not agree to these Terms and Conditions, please do not use our mobile application. Additionally, by using our mobile application, you consent to the collection and use of your information as outlined in our Privacy Policy.</string>
+    <string name="terms2">WildRunning is designed to provide sport tracking. You agree to use the mobile application only for lawful purposes and in a manner consistent with all applicable laws and regulations. You are prohibited from using the mobile application in any way that could damage, disable, overburden, or impair our servers or networks, or interfere with any other party\'s use and enjoyment of the mobile application.</string>
+    <string name="terms3">In no event shall WildRunning, nor any of its officers, directors, and employees, be liable to you for anything arising out of or in any way connected with your use of WildRunning, whether such liability is under contract, tort, or otherwise, and WildRunning, including its officers, directors, and employees, shall not be liable for any indirect, consequential, or special liability arising out of or in any way related to your use of this mobile application.</string>
 </resources>
