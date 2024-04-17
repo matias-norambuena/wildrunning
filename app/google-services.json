@@ -12,7 +12,20 @@
           "package_name": "com.matiasdev.wildrunning"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "440857834509-1hp0p93v1f2a63plnlcoeb1h4hjcpoiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matiasdev.wildrunning",
+            "certificate_hash": "6edc95b0ec3e96edefe5a057ca1445db188054ea"
+          }
+        },
+        {
+          "client_id": "440857834509-i4kik6l88c4ob6m19fcht6cj66bkqlbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB3hvcK-46cXOICpOnbYoe5nQz6_lQb4G0"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440857834509-i4kik6l88c4ob6m19fcht6cj66bkqlbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
